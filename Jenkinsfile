@@ -11,7 +11,6 @@ pipeline {
              stage('build') {
             steps {
                 echo 'Hello build'
-                mvn
             }
         }
              stage('test') {
