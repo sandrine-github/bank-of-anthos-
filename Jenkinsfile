@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello'
-                sleep1
+                sleep 1
             }
         }
              stage('build') {
@@ -21,7 +21,7 @@ pipeline {
              stage('deploy') {
             steps {
                 echo 'Hello deploy'
-                sleep5
+                sleep 2
             }
         }
     }
